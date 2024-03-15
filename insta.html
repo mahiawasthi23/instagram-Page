@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+         border-collapse: collapse;
+         border-spacing: 0%;
+         margin: 0%;
+    }
+    .relative {
+        border: 1px solid black;
+        border-radius: 1rem;
+        height: 40rem;
+        width: 30rem;
+        background-color: white;
+    }
+
+    .absolute {
+        border: 1px solid black;
+        border-radius: 2rem;
+        height: 40rem;
+        width: 30rem;
+        padding: 1rem;
+        background-color: rgb(206, 168, 243);
+        margin: 2rem;
+    }
+    .header{
+        border: 2px solid black;
+        border-radius: 1rem;
+        height: 10rem;
+        display: inline-block;
+        width: 30rem;
+        background-color: rgb(241, 234, 234);
+    }
+    .main{
+        border: 1px solid black;
+        height: 20rem;
+        background-image: url("f1.jpg");
+        background-size: cover;
+    }
+    .footer{
+        border: 1px solid black;
+        border-radius:  1rem;
+        height: 9.7rem;
+        background-color: rgb(241, 234, 234);   
+    }
+    h1{
+        display: inline-block;
+    }
+
+    .c{
+        width: 4rem;
+        height: 4rem;
+        border-radius: 4rem;
+        border: 2px solid red;
+        
+    }
+    .logo{
+        display: inline-block;
+        width: 21rem;
+        justify-content: space-between;
+        text-align: end;
+    }
+    .b{
+        display: inline-block;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 4rem;
+        border: 2px solid white;
+        position: relative;
+        top: 1rem;  
+    }
+    h3{
+        display: inline-block;
+        
+    }
+    .t,.gallary,.para{
+        display: inline-block;
+        width: 29rem;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        justify-content: space-around;
+    }
+    .icon{
+        display: inline-block;
+        height: 2rem;
+        position: relative;
+        top: 1rem;
+    }
+    .ic{
+        display: inline-block;
+        height: 2rem;
+        position: relative;
+        top: 1rem;
+        padding-left: 1rem;
+    }
+    #save{
+        display: inline-block;
+        height: 2rem;
+        position: relative;
+        left:17rem;
+        position: relative;
+        top: 1rem;
+    }
+    .para1{
+        position: relative;
+        top: 1rem;
+        padding-left: 1rem;
+    }
+    .k{
+        display: inline-block;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 4rem;
+        border: 2px solid black;
+    }
+    .imgs{
+        width: 2rem;
+    }
+    #red{
+        color: red;
+    }
+    </style>
+</head>
+<script src="https://kit.fontawesome.com/ca5d375637.js" crossorigin="anonymous"></script>
+<body>
+    <div class="absolute">
+        <div class="relative">
+            <div class="header">
+                <h1><i>Instagram</i></h1>
+                <div class="logo">
+                    <img src="heart.png" class="imgs">
+                    <img  class="imgs" src="messenger.png">
+                </div>
+                <div class="gallary">
+                    <img src="f1.jpg" class="c">
+                    <img src="girl1.jpg" class="c">
+                    <img src="girl2.jpg" class="c">
+                    <img src="girl3.jpg" class="c">
+                    <img src="f4.jpg" class="c">
+                </div>
+                <div class="para">
+                    <p class="para">Your story</p>
+                    <p class="para">sushmita</p>
+                    <p class="para">khushbu</p>
+                    <p class="para">Alka tiwari</p>
+                    <p class="para">Anjali</p>
+                </div>
+            </div>
+            <div class="main">
+                <div class="main_head">
+                    <img src="girl2.jpg" class="b">
+                    <h3>ma.hima7659</h3>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer_icon">
+                    <img src="heart.png" class="ic">
+                    <img src="comment.png" class="ic">
+                    <img src="send.png" class="ic">
+                    <img id="save"src="save.png">
+                </div>
+                <p class="para1">9 likes</p>
+                <p class="para1">preetidixit34 missing you so much   <i class="fa fa-heart" id="red"></i>  </p>
+                <p class="para1">view 1 comment</p>
+                <div class="t">
+                    <img src="home.png" class="icon">
+                    <img src="search.png" class="icon">
+                    <img src="add.png"class="icon">
+                    <img src="play.png"class="icon">
+                    <img src="f1.jpg"class="k">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
